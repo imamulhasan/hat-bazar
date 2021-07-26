@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+/* navbar styles  */
+.nav-search{
+    width: 400px;
+}
+.nav-profile{
+    font-size: 30px;
+}
+@media (max-width:688px) {
+    .nav-item{
+        text-align: center;
+    }
+    .nav-item-1{
+       margin-top: 20px;
+         display: flex;
+       justify-content: center;
+       
+    }
+}
+/* shoping offcanvas  */
+.offcanvas-pic img{
+    display: block;
+    margin: auto;
+    color: bisque;
+}
+.offcanvas-text h3 {
+    text-align: center;
+
+}
+.offcanvas-text button {
+   display: block;
+   margin: auto;
+
+}

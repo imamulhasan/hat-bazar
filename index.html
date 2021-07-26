@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hat-Bazar</title>
+    <!-- font awsome style  -->
+    <script src="https://kit.fontawesome.com/d7c55c7324.js" crossorigin="anonymous"></script>
+    <!-- bootstrap style link  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom styleshet  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar start  -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-dark py-3 bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="" width="150px" height="22"
+                            class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <li class="nav-item-1 ms-auto">
+                            <input class="form-control me-2 nav-search rounded-pill" type="search"
+                                placeholder="Search..." aria-label="Search">
+                        </li>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    All Product
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Cow</a></li>
+                                    <li><a class="dropdown-item" href="#">Goat</a></li>
+                                    <li><a class="dropdown-item" href="#">Camel</a></li>
+                                </ul>
+                            </li>
+
+                            <div>
+                                <li class="nav-item " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <a class="nav-link active  position-relative" href="#" tabindex="-1"><i
+                                            class="fas fa-shopping-cart"></i><span
+                                            class="position-absolute top-5 start-20 translate-middle badge rounded-pill bg-danger">
+                                            0
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span> 0.00</a>
+                                </li>
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                ...
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                aria-controls="offcanvasRight">
+                                <a class="nav-link active  position-relative" href="#" tabindex="-1"><i
+                                        class="fas fa-user-circle nav-profile"></i></a>
+
+                            </li>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    alu-vota
+                                </div>
+                            </div>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    <!-- javascript style  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
